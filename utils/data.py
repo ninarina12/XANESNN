@@ -24,7 +24,7 @@ bar_format = '{l_bar}{bar:10}{r_bar}{bar:-10b}'
 tqdm.pandas(bar_format=bar_format)
 
 sns.set(font_scale=1, style='ticks')
-plt.rcParams['font.family'] = 'lato'
+plt.rcParams['font.family'] = 'Liberation Sans'
 plt.rcParams['axes.linewidth'] = 1
 plt.rcParams['mathtext.default'] = 'regular'
 
